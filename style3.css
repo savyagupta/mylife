@@ -1,6 +1,6 @@
 h1 {
-    margin-left: 200px;
-    margin-top: 300px;
+    margin-left: 20px;
+    margin-top: -50px;
     font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -20,7 +20,7 @@ h2 {
     background-color: #c7ecee;
     font-size: 25px;
     border-style: none;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 20px;
     transition: transform .1s;
 }
@@ -30,4 +30,12 @@ h2 {
     background-color: gold;
     color: #c7ecee;
     transform: scale(1.2);
+}
+
+.travel {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 150px;
 }
