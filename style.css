@@ -1,5 +1,6 @@
-body {
+* {
     font-family: 'Permanent marker', cursive;
+    width: 100%;
 }
 
 .btn {
@@ -129,7 +130,8 @@ h5 {
  p
  {
     padding-left: 150px;
-    padding-right: 150px
+    padding-right: 150px;
+    width: 100%; 
  }
 
 
@@ -173,7 +175,9 @@ h5 {
     margin-left: 560px;
 }
 
-
+*{
+    width: 100%;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -186,15 +190,18 @@ h5 {
  p
  {
     padding-left: 600px;
-    padding-right: 600px
+    padding-right: 600px;
+    width:100%;
  }
 
-
+*{
+    width: 100%;
+    }
 
     .img{
         width:400px; 
         height:400px; 
-        margin-left: 700px; 
+        margin-left: 400px; 
         margin-top: -400px
     }
 
@@ -220,7 +227,7 @@ h5 {
      .img2{
         width:400px; 
         height:400px; 
-        margin-left: 700px;
+        margin-left: 400px;
         margin-top: -400px;
     }
 
