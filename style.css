@@ -14,6 +14,11 @@ body {
     transition: transform .1s;
 }
 
+.sav{
+    width: 100%;
+}
+
+
 .btn:hover {
     cursor: pointer;
     background-color: gold;
