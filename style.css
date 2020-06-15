@@ -1,5 +1,5 @@
 body {
-     font-family: 'Noto san display, sans-serif';
+    font-family: 'Noto san display, sans-serif';
 }
 
 .btn {
@@ -9,16 +9,10 @@ body {
     background-color: white;
     font-size: 25px;
     border-style: none;
-    margin-top: 30px;
+    margin-top: -30px;
     margin-left: 20px;
     transition: transform .1s;
 }
-
-.sav{
-    width: 1250px;
-     height: 550px;
-}
-
 
 .btn:hover {
     cursor: pointer;
@@ -79,178 +73,307 @@ h5 {
     margin-top: 20px;
     margin-left: 150px;
 }
-.image
-{
-    width:300px;
-    height:300px;
-    margin-left: 150px; 
+
+.image {
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
 }
 
- p
- {
+p {
     padding-left: 30px;
- }
+}
 
-  .img{
-        width:300px; 
-        height:300px; 
-        margin-left: 300px; 
-    }
+.img {
+    width: 300px;
+    height: 300px;
+    margin-left: 300px;
+}
 
-    .img1{
-        width:350px; 
-        height:350px; 
-        margin-left: 150px;
-    }
+.img1 {
+    width: 350px;
+    height: 350px;
+    margin-left: 150px;
+}
 
-    .img2{
-        width:350px; 
-        height:350px; 
-        margin-left: 250px;
-    }
+.img2 {
+    width: 350px;
+    height: 350px;
+    margin-left: 250px;
+}
 
-    h5{
-    font-family: fantasy; 
+h5 {
+    font-family: fantasy;
     margin-left: 580px;
 }
 
+.sav {
+    width: 1250px;
+    height: 550px;
+}
 
 
-@media (min-width: 1200px) and (max-width: 1366px) {
+/* responsive starts */
 
+
+/* ipad pro */
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .btn {
+        float: right;
+        padding: 10px 20px 10px 20px;
+        color: gold;
+        background-color: white;
+        font-size: 25px;
+        border-style: none;
+        margin-top: 30px;
+        margin-left: 20px;
+        transition: transform .1s;
     }
-
-
-@media (min-width: 992px) and (max-width: 1200px) {
-}
-
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .image
-{
-     width:400px;
-     height:400px;
-     margin-left: 100px; 
-}
- p
- {
-    padding-left: 150px;
-    padding-right: 150px
- }
-
-
-
-    .img{
-        width:400px; 
-        height:400px; 
-        margin-left: 700px; 
-        margin-top: -400px
+    .btn:hover {
+        cursor: pointer;
+        background-color: gold;
+        color: white;
+        transform: scale(1.2);
     }
-
-     .imgoutlook {
-    width: 4%;
-    height: 6vh;
-    margin-left: 500px;
-    margin-top: -10px;
+    h1 {
+        margin-left: 30px;
+        margin-top: -50px;
+        font-size: 60px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .imgoutlook {
+        width: 4%;
+        height: 8vh;
+        margin-left: 550px;
+        margin-top: 5px;
+    }
+    .imgtele {
+        width: 4%;
+        height: 8vh;
+        margin-left: 600px;
+        margin-top: -100px;
+    }
+    .imgtele {
+        transition: transform .1s;
+    }
+    .imgtele:hover {
+        transform: scale(1.5);
+    }
+    .imgoutlook {
+        transition: transform .1s;
+    }
+    .imgoutlook:hover {
+        transform: scale(1.5);
+    }
+    h3 {
+        margin-left: 350px;
+    }
+    h5 {
+        margin-left: 830px;
+    }
+    .life {
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+        margin-top: 20px;
+        margin-left: 180px;
+    }
+    .image {
+        width: 300px;
+        height: 300px;
+        margin-left: 150px;
+    }
+    p {
+        padding-left: 30px;
+    }
+    .img {
+        width: 300px;
+        height: 300px;
+        margin-left: 300px;
+    }
+    .img1 {
+        width: 350px;
+        height: 350px;
+        margin-left: 150px;
+    }
+    .img2 {
+        width: 350px;
+        height: 350px;
+        margin-left: 250px;
+    }
+    h5 {
+        font-family: fantasy;
+        margin-left: 580px;
+    }
+    .sav {
+        width: 1250px;
+        height: 550px;
+    }
 }
 
-.imgtele {
-    width: 4%;
-    height: 8vh;
-    margin-left: 600px;
-    margin-top: -100px;
-}
 
-.img1{
-        width:400px; 
-        height:400px; 
+/* ipad */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .image {
+        width: 40%;
+        height: 300px;
+        margin-left: 30px;
+    }
+    p {
+        padding-left: 20px;
+        width: 90%;
+    }
+    .img {
+        width: 40%;
+        height: 300px;
         margin-left: 100px;
+        margin-top: -200px
     }
-
-     .img2{
-        width:400px; 
-        height:400px; 
-        margin-left: 700px;
-        margin-top: -400px;
+    .imgoutlook {
+        width: 4%;
+        height: 6vh;
+        margin-left: 300px;
+        margin-top: 5px;
     }
-
-     h5{
-    font-family: fantasy; 
-    margin-left: 560px;
+    .imgtele {
+        width: 4%;
+        height: 8vh;
+        margin-left: 370px;
+        margin-top: -60px;
+    }
+    .img1 {
+        width: 40%;
+        height: 300px;
+        margin-left: 30px;
+    }
+    .img2 {
+        width: 40%;
+        height: 300px;
+        margin-left: 100px;
+        margin-top: -200px
+    }
+    h5 {
+        font-family: fantasy;
+        margin-left: 340px;
+    }
+    .sav {
+        width: 100%;
+        height: 300px;
+    }
+    h1 {
+        font-size: 35px;
+        margin-left: 10px;
+    }
+    .life {
+        margin-left: 20px;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        margin-top: 20px;
+    }
+    .btn {
+        float: right;
+        padding: 10px 20px 10px 20px;
+        color: gold;
+        background-color: white;
+        font-size: 20px;
+        border-style: none;
+        margin-top: 30px;
+        margin-left: 10px;
+        transition: transform .1s;
+    }
+    .btn:hover {
+        cursor: pointer;
+        background-color: gold;
+        color: white;
+        transform: scale(1.2);
+    }
 }
 
 
-}
+/* mobiles */
 
 @media only screen and (max-width: 767px) {
-  .image
-{
-     width: 40%;
-     height:200px;
-     margin-left: 30px; 
-}
- p
- {
-    padding-left: 20px;
-    width: 90%;
- }
-
-
-
-    .img{
-        width:40%; 
-        height:200px; 
-        margin-left: 220px; 
-        margin-top: -200px
+    .image {
+        width: 100%;
+        height: 300px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 10px;
     }
-
+    p {
+        padding-left: 20px;
+        width: 90%;
+    }
+    .img {
+        width: 100%;
+        height: 300px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 10px;
+    }
     .imgoutlook {
-    width: 4%;
-    height: 6vh;
-    margin-left: 200px;
-    margin-top: 5px;
-}
-
-.imgtele {
-    width: 4%;
-    height: 8vh;
-    margin-left: 250px;
-    margin-top: -50px;
-}
-
-.img1{
-         width: 40%;
-     height:200px;
-     margin-left: 30px; 
+        width: 4%;
+        height: 6vh;
+        margin-left: 200px;
+        margin-top: 5px;
     }
-     .img2{
-        width: 40%; 
-        height:200px; 
+    .imgtele {
+        width: 4%;
+        height: 8vh;
+        margin-left: 250px;
+        margin-top: -50px;
+    }
+    .img1 {
+        width: 100%;
+        height: 300px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .img2 {
+        width: 100%;
+        height: 300px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+    h5 {
+        font-family: fantasy;
         margin-left: 220px;
-        margin-top: -200px
     }
-
-     h5{
-    font-family: fantasy; 
-    margin-left: 220px;
-}
-
-.sav{
-    width: 100%; 
-    height: 200px;
-}
-
-h1{
-    font-size: 35px;
-    margin-left: 10px;
-}
-
-.life{
-    margin-left: 20px;
-     border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    margin-top: 20px;
-
-
+    .sav {
+        width: 100%;
+        height: 200px;
+    }
+    h1 {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .life {
+        margin-left: 5px;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        margin-top: 20px;
+    }
+    .btn {
+        font-size: 15px;
+        margin-right: 10px;
+        margin-top: -15px;
+    }
+    .blue {
+        margin-right: -40px;
+    }
+    .red {
+        margin-right: -40px;
+    }
+    .yellow {
+        margin-right: -5px;
+    }
+    .pink {
+        margin-right: -40px;
+    }
 }
