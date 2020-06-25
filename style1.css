@@ -104,6 +104,13 @@
     transform: scale(1.2);
 }
 
+.head {
+    font-size: 60px;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -50px;
+}
+
 .img6 {
     margin-left: 230px;
     margin-top: 30px;
@@ -213,4 +220,647 @@
     width: 60px;
     margin-top: 20px;
     margin-left: 150px;
+}
+
+.cricket {
+    margin-left: 300px;
+}
+
+.cricket1 {
+    margin-left: 210px;
+}
+
+.jones {
+    margin-left: 780px;
+    margin-top: -370px;
+}
+
+.jones1 {
+    margin-left: 810px;
+}
+
+.bday {
+    margin-left: 220px;
+    margin-top: 40px;
+}
+
+.bday1 {
+    margin-left: 200px;
+}
+
+.chem {
+    margin-left: 750px;
+    margin-top: -395px;
+}
+
+.chem1 {
+    margin-left: 830px;
+}
+
+.capsized {
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.capsized1 {
+    margin-left: 200px;
+}
+
+.escape {
+    margin-left: 900px;
+    margin-top: -380px;
+}
+
+.escape1 {
+    margin-left: 810px;
+}
+
+.virat {
+    margin-left: 240px;
+    margin-top: 30px;
+}
+
+.virat1 {
+    margin-left: 200px;
+}
+
+.chess {
+    margin-left: 950px;
+    margin-top: -380px;
+}
+
+.chess1 {
+    margin-left: 810px;
+}
+
+.grand {
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.grand1 {
+    margin-left: 200px;
+}
+
+.train {
+    margin-left: 840px;
+    margin-top: -380px;
+}
+
+.train1 {
+    margin-left: 810px;
+}
+
+.traffic {
+    margin-left: 220px;
+    margin-top: 30px;
+}
+
+.traffic1 {
+    margin-left: 200px;
+}
+
+.corona {
+    margin-left: 890px;
+    margin-top: -380px;
+}
+
+.corona1 {
+    margin-left: 810px;
+}
+
+
+/* responsive starts */
+
+
+/* ipad pro */
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .btn {
+        float: right;
+        padding: 10px 20px 10px 20px;
+        color: gold;
+        background-color: white;
+        font-size: 20px;
+        border-style: none;
+        margin-top: 30px;
+        margin-left: 5px;
+        transition: transform .1s;
+    }
+    .btn:hover {
+        cursor: pointer;
+        background-color: gold;
+        color: white;
+        transform: scale(1.2);
+    }
+    .img {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .cricket {
+        margin-left: 230px;
+    }
+    .img1 {
+        width: 40%;
+        margin-left: 680px;
+    }
+    .jones {
+        margin-right: -180px;
+        margin-left: 700px;
+    }
+    .cricket1 {
+        margin-left: 110px;
+    }
+    .jones1 {
+        margin-left: 660px;
+        margin-right: -200px;
+        margin-top: -3px;
+    }
+    .chem {
+        margin-right: -180px;
+        margin-left: 630px;
+        margin-bottom: 60px;
+    }
+    .chem1 {
+        margin-left: 660px;
+        margin-right: -200px;
+        margin-top: 10px;
+    }
+    .img3 {
+        width: 40%;
+        margin-left: 660px;
+        margin-top: -20px;
+    }
+    .img2 {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .bday {
+        margin-left: 150px;
+    }
+    .bday1 {
+        margin-left: 110px;
+    }
+    .capsized {
+        margin-left: 220px;
+    }
+    .capsized1 {
+        margin-left: 110px;
+    }
+    .img4 {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .escape {
+        margin-right: -180px;
+        margin-left: 750px;
+        margin-bottom: 60px;
+    }
+    .escape1 {
+        margin-left: 660px;
+        margin-right: -200px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .img5 {
+        width: 40%;
+        margin-left: 660px;
+        margin-top: -20px;
+    }
+    .virat {
+        margin-left: 180px;
+    }
+    .virat1 {
+        margin-left: 110px;
+    }
+    .img6 {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .chess {
+        margin-right: -180px;
+        margin-left: 780px;
+        margin-bottom: 60px;
+    }
+    .chess1 {
+        margin-left: 660px;
+        margin-right: -200px;
+        margin-top: 10px;
+    }
+    .img7 {
+        width: 40%;
+        margin-left: 660px;
+        margin-top: -20px;
+    }
+    .grand {
+        margin-left: 100px;
+    }
+    .grand1 {
+        margin-left: 110px;
+    }
+    .img8 {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .train {
+        margin-right: -180px;
+        margin-left: 700px;
+        margin-bottom: 60px;
+    }
+    .train1 {
+        margin-left: 660px;
+        margin-right: -200px;
+        margin-top: 10px;
+    }
+    .img9 {
+        width: 40%;
+        margin-left: 660px;
+        margin-top: -20px;
+    }
+    .traffic {
+        margin-left: 180px;
+    }
+    .traffic1 {
+        margin-left: 110px;
+    }
+    .img10 {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .corona {
+        margin-right: -180px;
+        margin-left: 750px;
+        margin-bottom: 60px;
+    }
+    .corona1 {
+        margin-left: 660px;
+        margin-right: -200px;
+        margin-top: 10px;
+    }
+    .img11 {
+        width: 40%;
+        margin-left: 660px;
+        margin-top: -20px;
+    }
+}
+
+
+/* ipad */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .btn {
+        float: right;
+        padding: 10px 20px 10px 20px;
+        color: gold;
+        background-color: white;
+        font-size: 20px;
+        border-style: none;
+        margin-top: 30px;
+        margin-left: -20px;
+        transition: transform .1s;
+    }
+    .btn:hover {
+        cursor: pointer;
+        background-color: gold;
+        color: white;
+        transform: scale(1.2);
+    }
+    .img {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .cricket {
+        margin-left: 200px;
+    }
+    .img1 {
+        width: 40%;
+        margin-left: 650px;
+    }
+    .jones {
+        margin-right: -180px;
+        margin-left: 700px;
+    }
+    .cricket1 {
+        margin-left: 80px;
+    }
+    .jones1 {
+        margin-left: 620px;
+        margin-right: -200px;
+        margin-top: -3px;
+    }
+    .chem {
+        margin-right: -180px;
+        margin-left: 630px;
+        margin-bottom: 60px;
+    }
+    .chem1 {
+        margin-left: 620px;
+        margin-right: -200px;
+        margin-top: 10px;
+    }
+    .img3 {
+        width: 40%;
+        margin-left: 620px;
+        margin-top: -20px;
+    }
+    .img2 {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .bday {
+        margin-left: 120px;
+    }
+    .bday1 {
+        margin-left: 80px;
+    }
+    .capsized {
+        margin-left: 200px;
+    }
+    .capsized1 {
+        margin-left: 80px;
+    }
+    .img4 {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .escape {
+        margin-right: -180px;
+        margin-left: 750px;
+        margin-bottom: 60px;
+    }
+    .escape1 {
+        margin-left: 620px;
+        margin-right: -200px;
+        margin-top: 10px;
+    }
+    .img5 {
+        width: 40%;
+        margin-left: 620px;
+        margin-top: -20px;
+    }
+    .virat {
+        margin-left: 180px;
+    }
+    .virat1 {
+        margin-left: 80px;
+    }
+    .img6 {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .chess {
+        margin-right: -180px;
+        margin-left: 780px;
+        margin-bottom: 60px;
+    }
+    .chess1 {
+        margin-left: 620px;
+        margin-right: -200px;
+        margin-top: 10px;
+    }
+    .img7 {
+        width: 40%;
+        margin-left: 620px;
+        margin-top: -20px;
+    }
+    .grand {
+        margin-left: 100px;
+    }
+    .grand1 {
+        margin-left: 80px;
+    }
+    .img8 {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .train {
+        margin-right: -180px;
+        margin-left: 700px;
+        margin-bottom: 60px;
+    }
+    .train1 {
+        margin-left: 620px;
+        margin-right: -200px;
+        margin-top: 10px;
+    }
+    .img9 {
+        width: 40%;
+        margin-left: 620px;
+        margin-top: -20px;
+    }
+    .traffic {
+        margin-left: 180px;
+    }
+    .traffic1 {
+        margin-left: 80px;
+    }
+    .img10 {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .corona {
+        margin-right: -180px;
+        margin-left: 750px;
+        margin-bottom: 60px;
+    }
+    .corona1 {
+        margin-left: 620px;
+        margin-right: -200px;
+        margin-top: 10px;
+    }
+    .img11 {
+        width: 40%;
+        margin-left: 620px;
+        margin-top: -20px;
+    }
+    .blog {
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+}
+
+
+/* mobiles */
+
+@media only screen and (max-width: 767px) {
+    .btn {
+        float: right;
+        padding: 10px 20px 10px 20px;
+        color: gold;
+        background-color: white;
+        font-size: 20px;
+        border-style: none;
+        margin-top: 30px;
+        margin-left: -20px;
+        transition: transform .1s;
+        margin-right: -20px;
+    }
+    .btn:hover {
+        cursor: pointer;
+        background-color: gold;
+        color: white;
+        transform: scale(1.2);
+    }
+    .head {
+        font-size: 40px;
+    }
+    .img {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .cricket {
+        margin-left: 200px;
+    }
+    .img1 {
+        width: 40%;
+        margin-left: 650px;
+    }
+    .jones {
+        margin-right: -180px;
+        margin-left: 700px;
+    }
+    .cricket1 {
+        margin-right: 300px;
+    }
+    .jones1 {
+        margin-left: 620px;
+        margin-right: -200px;
+        margin-top: -3px;
+    }
+    .chem {
+        margin-right: -180px;
+        margin-left: 630px;
+        margin-bottom: 60px;
+        margin-top: -400px;
+    }
+    .chem1 {
+        margin-left: 620px;
+        margin-right: -200px;
+        margin-top: 10px;
+    }
+    .img3 {
+        width: 40%;
+        margin-left: 620px;
+        margin-top: -20px;
+    }
+    .img2 {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .bday {
+        margin-left: 120px;
+    }
+    .bday1 {
+        margin-left: 80px;
+    }
+    .capsized {
+        margin-left: 200px;
+    }
+    .capsized1 {
+        margin-left: 80px;
+    }
+    .img4 {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .escape {
+        margin-right: -180px;
+        margin-left: 750px;
+        margin-bottom: 60px;
+    }
+    .escape1 {
+        margin-left: 620px;
+        margin-right: -200px;
+        margin-top: 10px;
+    }
+    .img5 {
+        width: 40%;
+        margin-left: 620px;
+        margin-top: -20px;
+    }
+    .virat {
+        margin-left: 180px;
+    }
+    .virat1 {
+        margin-left: 80px;
+    }
+    .img6 {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .chess {
+        margin-right: -180px;
+        margin-left: 780px;
+        margin-bottom: 60px;
+    }
+    .chess1 {
+        margin-left: 620px;
+        margin-right: -200px;
+        margin-top: 10px;
+    }
+    .img7 {
+        width: 40%;
+        margin-left: 620px;
+        margin-top: -20px;
+    }
+    .grand {
+        margin-left: 100px;
+    }
+    .grand1 {
+        margin-left: 80px;
+    }
+    .img8 {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .train {
+        margin-right: -180px;
+        margin-left: 700px;
+        margin-bottom: 60px;
+    }
+    .train1 {
+        margin-left: 620px;
+        margin-right: -200px;
+        margin-top: 10px;
+    }
+    .img9 {
+        width: 40%;
+        margin-left: 620px;
+        margin-top: -20px;
+    }
+    .traffic {
+        margin-left: 180px;
+    }
+    .traffic1 {
+        margin-left: 80px;
+    }
+    .img10 {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .corona {
+        margin-right: -180px;
+        margin-left: 750px;
+        margin-bottom: 60px;
+    }
+    .corona1 {
+        margin-left: 620px;
+        margin-right: -200px;
+        margin-top: 10px;
+    }
+    .img11 {
+        width: 40%;
+        margin-left: 620px;
+        margin-top: -20px;
+    }
+    .blog {
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
 }
